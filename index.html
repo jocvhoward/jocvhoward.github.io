@@ -11,6 +11,18 @@
             width:940px;
             margin:0 auto;
             }
+        section
+            {
+                color: #AF1212;
+                background-color: greenyellow;
+            }
+            middle-row {
+                background-color: orange;
+            }
+            
+            .red-text {
+                color: red;
+            }
             
 		p
             {
@@ -24,10 +36,16 @@
             {
                 color: #475D95
             }
+        ul
+            {
+                color: #DDB35B
+
+            }
             
         #pic1
             {
                 border:5px double black;
+                width:420px;
             }
             
         #pic2
@@ -39,44 +57,52 @@
         #pic3
             {
                 border:5px double black;
+                width:420px;
             }
             
 		</style>
 	</head>
 	<body>
-        
-	<h1>Home | Rivers | FAQ | Blog | Rates/Dates | Contact Us</h1>
-
+    
         <img src="http://brothert.net/dryoar/images/dryoarlogo.png" 
-         alt="Dry Oar boating logo">
+         alt="Dry Oar logo">
         
-        <img id="pic1" src="http://brothert.net/dryoar/images/raft-rapid.jpg" 
-             alt="raft-rapid">
+        <nav> 
+       
+        <ul>
+        <li> Dry Oar</li>
+        <li>Home</li>
+        <li>Rivers</li>
+        <li>FAQ</li>
+        <li>Blog</li>
+        <li>Rates/Dates</li>
+        <li>Contact Us</li>
+        </ul>
+            
+        </nav>
         
+        <img src="http://brothert.net/dryoar/images/river-narrow.jpg" alt="river-narrow" height="250" width="940">
+        <section id="top-row">
         <h2>River Trips are for Relaxing!</h2>
+       <p>We believe that there is nothing like a river trip for <em>relaxing</em>. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the <strong>beauty</strong> that surrounds the rivers we love.</p>
+       <img id="pic2" src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="raft-river">
+        </section>
         
-        <div class="relax"><p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
-        </div>
-        
-        <img id="pic2" src="http://brothert.net/dryoar/images/river-narrow.jpg"
-             alt="river-narrow">
-        
-       <img id="pic3" src="http://brothert.net/dryoar/images/raft-rapid.jpg"
-         alt="raft-rapid">
-        
-        <h2>We Run Whitewater for the Rush!</h2>
-		
-		<div class="run"><p>That doesn't mean we don't also like rapids. Opposites in all things after all. 
+        <section id="middle-row">
+       <img id="pic3" src="http://brothert.net/dryoar/images/deso-kayak.jpg" alt="deso-kayak">
+        <h2 class="red-text">We Run Whitewater for the Rush!</h2>
+		<p>That doesn't mean we don't also like rapids. Opposites in all things after all. 
 		We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
-        </div>
+        </section>
         
+        <section id="bottom-row">
         <h2> Come With Us!</h2>
-		
-		<div class="come"><p>We invite you to come relax with us on one of the amazing rivers we visit. 
+		<p>We invite you to come relax with us on one of the amazing rivers we visit. 
 		Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
-        </div>
-		
-		<p>&copy; 2016 Dry Oar || Jocelyn Howard<p>
-		
+		</section>
+        
+        <footer>
+            <p>&copy; 2016 Dry Oar || Jocelyn Howard<p>
+        </footer>
 	</body>
 </html>
